@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TrelloAPITesting">
+    <test name="EndToEndTest">
+        <classes>
+            <class name="TrelloRestAPIsTestcases.BoardTest"></class>
+            <class name="TrelloRestAPIsTestcases.ListTest"></class>
+            <class name="TrelloRestAPIsTestcases.CardTest"></class>
+            <class name="TrelloRestAPIsTestcases.ChecklistTest"></class>
+        </classes>
+    </test>
+</suite>
